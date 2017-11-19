@@ -1,0 +1,68 @@
+.component-main{
+    display: flex;
+	justify-content: center;
+    padding: 10px;
+	border-radius: 15px;
+	margin-left:550px;
+	margin-right:550px;
+}
+
+.component-main > select{
+	margin-right:5px;
+	width:115px;
+	height:30px;
+	background-color:black;
+	border:solid 1px;
+	color:#ffff33;
+	font-family: myfont2;
+	font-size:25px;
+}
+
+.component-main > input{
+	margin-right:5px;
+	background-color:black;
+	border:solid 1px;
+	border-color:#ffff33;	
+	color:#ffff33;
+	font-family: myfont2;
+	font-size:25px;
+}
+
+.component-main > button{
+	margin-right:5px;
+	background-color:black;
+	border:solid 1px;
+	border-color:#ffff33;	
+	color:#ffff33;
+	font-family: myfont2;
+	font-size:25px;
+}
+
+.component-main > select:hover{
+	border-color:#4d94ff;
+	color:#4d94ff;	
+}
+
+.component-main > input:hover{
+	border-color:#4d94ff;	
+	color:#4d94ff;
+}
+
+.component-main > button:hover{
+	border-color:#4d94ff;
+	color:#4d94ff;
+}
+
+.component-main > select:focus{
+	border-color:#4d94ff;
+	color:#4d94ff;
+}
+
+.component-main > input:focus{
+	border-color:#4d94ff;	
+	color:#4d94ff;
+}
+
+.component-main > button:focus{
+	border-color:#4d94ff;	
+}

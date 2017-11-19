@@ -1,0 +1,45 @@
+.component-list{
+	border:solid;
+	background-color:black;
+	color:#ffff33;
+	display: flex;
+	margin-bottom:10px;
+	border-radius: 15px;
+	margin-left:120px;
+	margin-right:120px;
+}
+
+.component-list > table > tr > td{
+	background-color:black;
+	padding:10px;
+	color:#ffff33;
+	max-width:1200px;
+	font-family: myfont;
+	position:relative;
+	word-wrap: break-word;
+	font-size:15px;
+}
+
+.component-list > table > tr > th{
+	border:solid;
+	border-radius:10px 0px 0px 10px;
+	border-right-color:#4d94ff;
+	border-left-color:black;
+	border-top-color:black;
+	border-bottom-color:black;
+	background-color:black;
+	padding:10px;
+	color:#4d94ff;
+	font-family: myfont;
+	font-size:15px;
+}
+
+.component-list > table > tr > th::first-letter{
+	text-transform: uppercase;
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(./LCDL.woff);
+}
+

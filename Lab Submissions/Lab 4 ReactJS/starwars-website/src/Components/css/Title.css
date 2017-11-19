@@ -1,0 +1,16 @@
+.component-title{
+	justify-content: center;
+	color:#ffff33;
+	font-family: myfont;
+	margin-left:600px;
+	margin-right:600px;
+	border-radius: 15px;
+	text-align:center;
+	font-size:25px;
+	text-transform: uppercase;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./STARWARS.woff);
+}
